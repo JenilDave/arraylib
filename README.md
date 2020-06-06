@@ -5,14 +5,14 @@ Example usage:
 
 #include<stdio.h>
 #include "arraylib.c"
-
+```
 int main(){
 	int ar[4] = {1,34,452,13};
 	int large = largest(ar,4);
 	printf("%d",ar[large]); //returns index of largest number
 	return 0;
 }
-
+```
 here, largest will give you index of largest number.
 Description for largest :
 int largest(int *dest,int size)
