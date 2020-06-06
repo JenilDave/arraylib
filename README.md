@@ -2,10 +2,10 @@
 Finding difficult/ bored to make algorithms for arrays? Use this source code it will help you find smallest, largest and sort array.
 
 Example usage:
-
+```
 #include<stdio.h>
 #include "arraylib.c"
-```
+
 int main(){
 	int ar[4] = {1,34,452,13};
 	int large = largest(ar,4);
