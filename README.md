@@ -13,12 +13,13 @@ int main(){
 	return 0;
 }
 ```
-here, largest will give you index of largest number.
+in above example, largest() will give you index of largest number as return.
 Description for largest :
+```
 int largest(int *dest,int size)
 	/*@params: array, array size
 	  @brief: finds largest number in the array defined size
 	  @return: index of largest number */
-
+```
 Similarly for smallest and sort. Descriptions are available in "arraylib.c"
-Other fuctionalities will be added soon. Feel free to contribute.
+Other functionalities will be added soon. Feel free to contribute.
